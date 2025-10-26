@@ -1,14 +1,3 @@
- /* font-family: "Roboto",
- sans-serif;
- font-family: "Raleway",
- sans-serif; */
-
- /*2E2F42*/
-
- /*style="background-color: #2e2f42;"
- style="color: #fff;"
-  style="background-color: #404bbf;"*/
-
 body {
     font-family: "Roboto",
             sans-serif;
@@ -22,6 +11,22 @@ a {
     text-decoration: none;
 }
 
+.page-header {
+    position: relative;
+    width: 1440px;
+    height: 72px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 156px;
+    gap: 40px;
+    border-radius: 0px;
+    box-shadow: none;
+    border-bottom: 1px;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -30,6 +35,10 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    position: relative;
+    top: 24px;
+    left: 24px;
+    order: 156px;
 }
 .header-logo .part-logo {
     color: #2e2f42;
@@ -86,12 +95,7 @@ a {
     color: #fff;
     white-space: nowrap;
 }
-.main-button:hover,
-.main-button:hover {
-    background-color: #404bbf;
-    font-weight: 600;
-    cursor: pointer;
-}
+
 .section-feature {display: none;}
 
 .feature-title {
@@ -112,6 +116,7 @@ a {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
@@ -129,14 +134,16 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    background-color: #FFFFFF;
 }
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 .portfilio-list1-item {
     width: 1128px;

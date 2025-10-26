@@ -111,7 +111,7 @@ a {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-background-color: #FFFFFF;
+   
 }
 .team-item-name {
     font-weight: 500;
@@ -120,7 +120,7 @@ background-color: #FFFFFF;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    background-color: #FFFFFF;
+    background-color:#FFFFFF;
 }
 .team-item-position {
     font-size: 16px;

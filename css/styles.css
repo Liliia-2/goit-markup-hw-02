@@ -83,6 +83,12 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
 }
+.main-button:hover,
+.main-button:hover {
+    background-color: #404bbf;
+    font-weight: 600;
+}
+
 .section-feature {display: none;}
 
 .feature-title {

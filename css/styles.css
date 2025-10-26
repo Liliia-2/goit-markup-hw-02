@@ -70,6 +70,11 @@ a {
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
+    cursor: pointer;
+}
+    .main-button:hover,
+.main-button:focus {
+    background-color: #404BBF
 }
 .button-text {
     font-weight: 500;
@@ -95,6 +100,9 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
+.team {
+    background-color: #F4F4FD;
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -103,16 +111,18 @@ a {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+
 }
-.team-name {
+.team-item-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    background-color: #FFFFFF;
 }
-.team-position {
+.team-item-position {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;

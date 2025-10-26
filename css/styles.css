@@ -11,22 +11,6 @@ a {
     text-decoration: none;
 }
 
-.page-header {
-    position: relative;
-    width: 1440px;
-    height: 72px;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 24px 156px;
-    gap: 40px;
-    border-radius: 0px;
-    box-shadow: none;
-    border-bottom: 1px;
-}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;

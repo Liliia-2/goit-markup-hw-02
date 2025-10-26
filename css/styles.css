@@ -111,7 +111,7 @@ a {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-
+background-color: #FFFFFF;
 }
 .team-item-name {
     font-weight: 500;
@@ -138,14 +138,6 @@ a {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-}
-.portfilio-list1-item {
-    width: 1128px;
-    height: 419px;
-}
-.portfilio-list2-item {
-    width: 1128px;
-    height: 414px;
 }
 .portfolio-name {
     font-weight: 500;

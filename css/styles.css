@@ -19,10 +19,6 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    position: relative;
-    top: 24px;
-    left: 24px;
-    order: 156px;
 }
 .header-logo .part-logo {
     color: #2e2f42;
